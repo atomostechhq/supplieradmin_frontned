@@ -1,0 +1,273 @@
+.overview_container {
+  /* padding: 2em; */
+  padding-bottom: 2em;
+  background: #eeeeee;
+}
+
+.project_order_nav {
+  padding: 2em 100px;
+  background-color: #fff;
+  border: 1px solid #9b9b9b;
+}
+
+.project_container {
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_project_container {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+}
+
+.right_project_container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.topupOrder {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.left_project_container h1 {
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 0.2em;
+}
+
+.left_project_container span {
+  font-weight: 600;
+  font-size: 18px;
+  color: #1765dc;
+}
+
+.edit {
+  font-weight: 700;
+  font-size: 12px;
+  color: #1765dc;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #1765dc;
+}
+
+.projNum {
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0.16px;
+  color: #1765dc;
+}
+
+.survey_details_container {
+  padding: 2em;
+}
+
+.left_survey_details {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+}
+
+.details_body span {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.details_body h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #1765dc;
+  margin-top: 0.4em;
+}
+
+.survey_details_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_survey_details {
+  width: 50%;
+  display: flex;
+  gap: 1em;
+}
+
+.target_audience {
+  background: linear-gradient(
+    91.56deg,
+    #ffffff 0.58%,
+    rgba(255, 255, 255, 0.18) 99.8%
+  );
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  padding: 1.5em;
+  width: 60%;
+  /* width: 330px; */
+  height: 274px;
+}
+
+.img_text {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #666666;
+}
+
+.img_text span {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.target_audience p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #333;
+  padding-top: 1.5em;
+}
+
+.deviceCompatibility {
+  /* width: 281px; */
+  width: 40%;
+  background: linear-gradient(
+    91.56deg,
+    #ffffff 0.58%,
+    rgba(255, 255, 255, 0.18) 99.8%
+  );
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  padding: 1.5em;
+}
+
+.checkbox_wrapper {
+  margin-top: 1em;
+}
+
+.checkbox_container {
+  display: flex;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.checkbox_container label {
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+}
+
+.project_table_container {
+  margin: 2em;
+  border: 3px solid #1765dc;
+  border-radius: 8px;
+}
+
+.project_table_container table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.project_table_container table thead {
+  background: #1765dc;
+  border: 3px solid #1765dc;
+  border-radius: 8px 8px 0px 0px;
+  color: white;
+}
+
+.project_table_container table th {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.project_table_container table th,
+.project_table_container table td {
+  /* border: 1px solid red; */
+  padding: 1.3em 1em;
+}
+
+.view a {
+  color: #1765dc;
+}
+
+.description {
+  background: linear-gradient(
+    92.8deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  height: 274px;
+  margin: 2em;
+  padding: 2em;
+}
+
+.description p {
+  margin-top: 1em;
+}
+
+.description .img_text span {
+  font-size: 24px;
+}
+
+/* table */
+.collapse_table {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 1px rgba(23, 101, 220, 0.25);
+  margin: 2em;
+}
+
+.collapse_table table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.collapse_table table thead {
+  background: #e0e0e0;
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  height: 50px;
+}
+
+.collapse_table table thead th {
+  padding: 0.8em;
+  font-size: 14px;
+}
+
+.collapse_table table tbody td {
+  padding: 0.8em;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 13px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 0.2em;
+}
+
+.flex .icon {
+  margin-top: 0.2em;
+}
+
+.projOrderLink {
+  color: #666666;
+  text-decoration: none;
+  letter-spacing: 0.16px;
+  margin-right: 1em;
+}
+
+.active {
+  color: #1765dc;
+  margin-right: 1em;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.16px;
+}
